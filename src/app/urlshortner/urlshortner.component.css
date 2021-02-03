@@ -1,0 +1,55 @@
+.urlcard{
+    padding: 15px;
+    flex: 1 1 100%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.urlcard #longurl{
+    border: 1px solid;
+    border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 125px;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+    width: 95%;
+}
+
+.urlcard #authbox{
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 1rem;
+  margin: 0.25rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+
+}
+
+.urlcard #authquestion{
+    font-size: 1rem;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  transition: background-color 0.5s ease-out;
+}
+
+
+.urlcard #authpassword{
+    border: 1px solid;
+    border-radius: 4px;
+  font-size: 1rem;
+  margin: 0.25rem;
+  min-width: 50px;
+  padding: 0.3rem;
+  transition: background-color 0.5s ease-out;
+    width: 30%;
+}
+
+.urlcard #submit{
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: 1rem;
+  margin:0.5rem;
+}

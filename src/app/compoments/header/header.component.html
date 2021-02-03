@@ -1,0 +1,33 @@
+<!-- Header -->
+<mat-toolbar color="primary" class="app-header">
+    <div><a href="/home" target="_self" class="urlshortner">URL Shortner</a></div>
+    <span class="nav-tool-items">
+      <a mat-button href="/login" routerLink="login" *ngIf="!isLoggedIn" routerLinkActive="active">
+        <mat-icon>power_settings_new</mat-icon>
+        Log in</a>
+      <a mat-button href="/logout" routerLink="home" *ngIf="!isLoggedIn"  routerLinkActive="active" (click)="logout()"> <!-- replace with ---*ngIf="isLoggedIn"-->
+        <mat-icon>exit_to_app</mat-icon>
+        Log Out</a>
+      <!-- <a mat-button href="/profile" routerLink="profile" *ngIf="!isLoggedIn"  routerLinkActive="active" > replace with ---*ngIf="isLoggedIn"
+        user profile</a> -->
+      <a mat-button href="/admin" routerLink="admin" *ngIf="!isLoggedIn"  routerLinkActive="active" > <!-- replace with ---*ngIf="showAdminProfile""-->
+        Admin</a>
+      <a mat-button href="/user" routerLink="user" *ngIf="!isLoggedIn"  routerLinkActive="active" > <!-- replace with ---*ngIf="isLoggedIn"-->
+        user</a>
+      <a mat-button href="/shorturl" routerLink="shorturl" *ngIf="!isLoggedIn"  routerLinkActive="active" > <!-- replace with ---figure it out-->
+        short url list</a>
+      <a mat-button href="/urlshortner" routerLink="urlshortner" *ngIf="!isLoggedIn"  routerLinkActive="active" > <!-- replace with ---figure it out-->
+        url shortening</a>
+      <a mat-button href="/allusers" routerLink="allusers" *ngIf="!isLoggedIn"  routerLinkActive="active" > <!-- replace with ---figure it out-->
+        all users</a>
+      <a mat-button href="/register" routerLink="register" *ngIf="!isLoggedIn" routerLinkActive="active">
+        <mat-icon>person_add</mat-icon>
+        Sign Up</a>
+    </span>
+  </mat-toolbar>
+  
+  
+
+ 
+  
+  
